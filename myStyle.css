@@ -1,0 +1,179 @@
+body {
+    text-align: center;
+    font-size: 16px;
+    color: hsl(210, 10%, 33%);
+    z-index: -1;
+    background-color: #f1f3f8;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h1 {
+    margin: 35px 0 20px;
+}
+p {
+    width: 75%;
+    margin: 20px auto 15px auto;
+}
+button {
+    margin: 30px 3px 80px;
+}
+.computer {
+    width: 40%;
+    margin-top: 65px;
+    float: left;
+
+}
+.devices {
+    margin-top: 40px;
+    width: 55%
+}
+
+#firstButton {
+    border-radius: 30px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+#secondButton {
+    border-radius: 30px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+/*Top section*/
+#firstClipboard {
+    width: 50rem;
+    z-index: 1;
+    background-color: white;
+    margin-left: 13rem;
+    margin-top: 11rem;
+}
+#header-image {
+    width: 780px;
+    height: 10rem;
+}
+#logo-img {
+    height: 4.5rem;
+    position: absolute;
+    top: 240px;
+    display: block;
+    margin-left: 364px;
+
+}
+#computerText p {
+    text-align: left;
+    width: 40%;
+    margin-right: 80px;
+}
+#computerText {
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+}
+
+#secondClipboard {
+    width: 50rem;
+    background-color: white;
+    position: absolute;
+    right: 270px;
+    top: 15px;
+    z-index: -1;
+    padding-top: 70px;
+
+}
+.card {
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.card-text {
+    width: 100%;
+}
+#first2Button {
+    border-radius: 30px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+#second2Button {
+    border-radius: 30px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.logosContainer {
+    margin-bottom: 70px;
+
+}
+.logos {
+    width: 14%;
+    margin: 10px 20px ;
+}
+.FA {
+    background-color: hsl(201, 11%, 66%);
+}
+/*Footer Section*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1208px) {
+    body {
+        padding: 0;
+    }
+    #header-image {
+        width: 520px;
+    }
+    #logo-img {
+        position: absolute;
+        top:85px;
+        display: block;
+        margin-left: 220px;
+    }
+    #firstClipboard {
+        width: 50rem;
+        background-color: white;
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    #secondClipboard {
+        width: 50rem;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 1270px;
+        padding-top: 70px;
+    }
+    .computer {
+        float: none;
+    }
+    #computerText p{
+        text-align: center;
+        width: 80%;
+        margin-right: 10%;
+    }
+    .attribution {
+        display: none;
+    }
+    .appear {
+        display: none;
+    }
+}
